@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellenfriendlykitchen</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html"></a>Welcome to the EllenFriendlyKitchen!</a></h1>
+    </header>
+
+    <main>
+        <!-- Add your website content here -->
+
+        <div class="content-container">
+            <!-- Call Sidebar -->
+            <button id="sidebar-toggle" class="sidebar-toggle-btn">&#9776;</button>
+            <div id="sidebar-container"></div>
+            <script src="script.js"></script>
+            <script>
+                loadSidebar();
+            </script>
+
+            <div>
+                <div class="intro-container">
+                    <section class="intro">
+                        <p>Discover delicious recipes, cooking tips, and the latest food trends on my blog.</p>
+                    </section>
+                    <img src="/Pictures/Ellen.jpg" alt="Alt description of the text" class="article-image-right circular-image">
+                    <p>
+                        <a href="https://www.instagram.com/ellenfriendlykitchen/" target="_blank">Follow me on Instagram</a>
+                    </p>
+                </div>
+                <section class="content">
+                    <div class="widget">
+                        <article>
+                            <h3><a href="homemade-pizza.html">Recipe of the Day: Homemade Pizza</a></h3>
+                            <p>Learn how to make delicious homemade pizza with our step-by-step guide...</p>
+                        </article>
+                    </div>
+                
+                    <div class="widget">
+                        <article>
+                            <h3><a href="kitchen-gadgets.html">5 Essential Kitchen Gadgets for Home Cooks</a></h3>
+                            <p>Upgrade your kitchen with these must-have gadgets that will make your life easier...</p>
+                        </article>
+                    </div>
+                
+                    <div class="widget">
+                        <article>
+                            <h3><a href="meal-planning.html">A Guide to Meal Planning and Prep</a></h3>
+                            <p>Save time and reduce stress by planning and prepping your meals in advance...</p>
+                        </article>
+                    </div>
+                </section>
+                <!--/* Sharing buttons -->
+                <div class="share-buttons">
+                    <a href="#" class="share-button" id="twitter-share">Share on Twitter</a>
+                    <a href="#" class="share-button" onclick="shareOnInstagram()">Share on Instagram</a>
+                    <a href="#" class="share-button" id="email-share">Share via Email</a>
+                </div>
+            </div>
+
+        
+        
+    </main>
+    <footer>
+        <p>Copyright &copy; EllenFriendlyKitchen. All rights reserved.</p>
+    </footer>
+</body>
+</html>
